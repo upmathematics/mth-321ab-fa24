@@ -1,0 +1,34 @@
+---
+title: | 
+  \vspace{-1in}
+  | **Ordinary Differential Equation**
+  | **Syllabus**
+author: |
+  | MTH 321 Sections  A & B
+  | Fall 2024
+  | University of Portland
+header-includes: |
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhead[RO,R]{MTH 321AB ODE - Syllabus}
+  \fancyfoot[CO,C]{}
+  \fancyfoot[R]{\thepage}
+  \usepackage{float}
+output:
+  bookdown::pdf_document2:
+    toc: no
+    number_section: no
+urlcolor: blue
+bibliography: ../../references.bib
+csl: ../../apa.csl
+geometry: "left=0.50in,right=0.50in,top=0.75in,bottom=0.75in"
+fontsize: 12pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+## X
