@@ -97,7 +97,11 @@ My UP email is quijano@up.edu.
 
 ### Moodle
 
-> All assignments must be submitted through Moodle or physically. You are already listed in Moodle for this course using your UP account. The course Moodle page can also be accessed through Teams.
+> All assignments must be submitted through [Moodle](https://learning.up.edu){target="_blank"} or physically. You are already listed in Moodle for this course using your UP account. The course Moodle page can also be accessed through Teams.
+
+### Desmos
+
+> Use your UP email to sign-up for a free Desmos account and join our Desmos class [MTH-321: Ordinary Differential Equation [Quijano]](https://student.desmos.com/?prepopulateCode=vkkpy8){target="_blank"}. If you need the Desmos class code, use *VKKPY8*.
 
 ### Wolfram
 

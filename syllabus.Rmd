@@ -94,9 +94,19 @@ It is easy for me to get notice of your email if you put the keyword in the subj
 
 We will be using the course Moodle page for submitting assignments and receiving feedback.
 
-> All assignments must be submitted through Moodle or physically. You are already listed in Moodle for this course using your UP account. The course Moodle page can also be accessed through Teams.
+> All assignments must be submitted through [Moodle](https://learning.up.edu){target="_blank"} or physically. You are already listed in Moodle for this course using your UP account. The course Moodle page can also be accessed through Teams.
 
 Note that you may submit your assignments physically in-person if you prefer. I will scan and upload your assignments to Moodle.
+
+### Desmos
+
+We will be using Desmos as our online graphing calculator for our in-class activities and out-class activities.
+
+* [*Desmos*](https://www.desmos.com/){target="_blank"} is a powerful online graphing calculator that allows you to visualize and explore mathematical functions. You can manipulate parameters and sliders to observe how changes in equations affect the graph.
+
+> Here is how you can access Desmos:
+>
+> Use your UP email to sign-up for a free Desmos account and join our Desmos class [MTH-321: Ordinary Differential Equation [Quijano]](https://student.desmos.com/?prepopulateCode=vkkpy8){target="_blank"}. If you need the Desmos class code, use *VKKPY8*.
 
 ### Wolfram
 
