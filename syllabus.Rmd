@@ -74,7 +74,7 @@ The syllabus, tentative topics schedule, assignments, and all other class materi
 
 We will be using Teams as the main real-time communication tool for general announcements, assignment submissions, question-answering discussions, and direct messages. I added you to the Teams page already, so you just need to log in using your UP credentials. If not, then send a request when you log in. Let me know if you need any assistance.
 
-> The Teams for this course is [MTH-321AB-fa24](https://teams.microsoft.com/l/team/19%3AzQECcIYWQSQjSz8yuRrBWpdpVUkkD40RJOjHcC0C5bw1%40thread.tacv2/conversations?groupId=a560fff5-4e2f-4367-bbaf-e8584d01eefc&tenantId=ea8f3949-231c-40b6-a33f-56873af96f87){target="_blank"}.
+> The Teams for this course is [MTH-321AB-fa24](https://teams.microsoft.com/l/team/19%3AzQECcIYWQSQjSz8yuRrBWpdpVUkkD40RJOjHcC0C5bw1%40thread.tacv2/conversations?groupId=a560fff5-4e2f-4367-bbaf-e8584d01eefc&tenantId=ea8f3949-231c-40b6-a33f-56873af96f87){target="_blank"}. I recommend that you install the Teams software on your own machine for easy and stable access, instead of accessing Teams on the browser.
 
 Note that most of the content can be accessed in Teams which includes the course website, course Moodle page, and Wolfram.
 
