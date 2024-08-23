@@ -104,8 +104,6 @@ We will be using Desmos as our online graphing calculator for our in-class activ
 
 * [*Desmos*](https://www.desmos.com/){target="_blank"} is a powerful online graphing calculator that allows you to visualize and explore mathematical functions. You can manipulate parameters and sliders to observe how changes in equations affect the graph.
 
-> Here is how you can access Desmos:
->
 > Use your UP email to sign-up for a free Desmos account and join our Desmos class [MTH-321: Ordinary Differential Equation [Quijano]](https://student.desmos.com/?prepopulateCode=vkkpy8){target="_blank"}. If you need the Desmos class code, use *VKKPY8*.
 
 ### Wolfram
