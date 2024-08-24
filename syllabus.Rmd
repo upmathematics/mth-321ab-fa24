@@ -230,10 +230,10 @@ Given the following categorical grade, the student's work is able to:
 
 | **Assignment** | **Rank** | **Grade** | **A** | **B** | **C** | **D** |
 |----------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| **Exams** | 1 | O | 70% | - | - | - |
-|  |  | E | - | 60% | - | - |
-|  |  | A | - | - | 50% | - |
-|  |  | NI | - | - | - | 40% |
+| **Exams** | 1 | O | 80% | - | - | - |
+|  |  | E | - | 70% | - | - |
+|  |  | A | - | - | 60% | - |
+|  |  | NI | - | - | - | 50% |
 | **Homeworks** | 2 | O | 100% | - | - | - |
 |  |  | E | - | 90% | - | - |
 |  |  | A | - | - | 80% | - |
@@ -324,7 +324,7 @@ The grade you will receive for exams are a breakdown of your written and oral ex
 
 > Here is how you can sign-up for the exam (oral part):
 >
-> * [ODE Exam (Oral Part) Sign-Up](https://calendly.com/alexjohnquijano/ode-exam-oral-part-sign-up){target="_Blank"} <br> *Click on the link to sign-up for a 15-minute session.*
+> * [Ordinary Differential Equation Exam Sign-Up](https://calendly.com/alexjohnquijano/ordinary-differential-equation-exam){target="_Blank"} <br> *Click on the link to sign-up for a 15-minute session.*
 
 ### Exam Retakes
 
@@ -345,7 +345,7 @@ Here are the rules for exam retakes:
 
 > Here is how you can sign-up for the exam (oral part) retakes:
 >
-> * [ODE Exam (Oral Part) Retakes](https://calendly.com/alexjohnquijano/ode-exam-oral-part-retakes-and-make-up){target="_Blank"} <br> *Click on the link to sign-up for a 15-minute session.*
+> * [Ordinary Differential Equation Exam Retakes](https://calendly.com/alexjohnquijano/retake-or-make-up-exam-upper-division){target="_Blank"} <br> *Click on the link to sign-up for a 15-minute session.*
 
 ### Make-up Exams
 
@@ -361,7 +361,7 @@ Here are the rules of make-up exams:
 
 > Here is how you can sign-up for the exam (oral part) make-ups:
 >
-> * [ODE Exam (Oral Part) Make-Ups](https://calendly.com/alexjohnquijano/ode-exam-oral-part-retakes-and-make-up){target="_Blank"} <br> *Click on the link to sign-up for a 15-minute session.*
+> * [Ordinary Differential Equation Exam Make-Ups](https://calendly.com/alexjohnquijano/retake-or-make-up-exam-upper-division){target="_Blank"} <br> *Click on the link to sign-up for a 15-minute session.*
 
 ### Final Exam
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.15)  23 AUG 2024 21:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.15)  23 AUG 2024 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -685,11 +685,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13] (./syllabus-pdf.aux) ) 
 Here is how much of TeX's memory you used:
- 13831 strings out of 479302
- 204136 string characters out of 5871204
+ 13833 strings out of 479302
+ 204160 string characters out of 5871204
  583701 words of memory out of 5000000
  30512 multiletter control sequences out of 15000+600000
- 464660 words of font info for 145 fonts, out of 8000000 for 9000
+ 464789 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,12n,88p,1254b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec
@@ -697,7 +697,7 @@ Here is how much of TeX's memory you used:
 /texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/
 type1/public/lm/lmbxo10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/l
 mr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on syllabus-pdf.pdf (13 pages, 157568 bytes).
+Output written on syllabus-pdf.pdf (13 pages, 157790 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  388 compressed objects within 4 object streams
