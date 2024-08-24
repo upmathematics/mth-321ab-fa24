@@ -57,8 +57,7 @@ refs <- bibtex::read.bib("references.bib")
 
 *Click on the link to access the resources.*
 
-  * `r capture.output(print(refs["hallstrom2018"]))` [[pdf]](https://drive.google.com/file/d/12G9cs0RQPqiXb7vjJXVH58ePJ8DZBgC1/view?usp=sharing){target="_blank"}
-  * `r capture.output(print(refs["trench2013elementary"]))` [[pdf]](https://digitalcommons.trinity.edu/cgi/viewcontent.cgi?article=1007&context=mono){target="_blank"}
+  * `r capture.output(print(refs["trench2013elementary"]))`
 
 <br>
 
@@ -76,7 +75,7 @@ We will be using Teams as the main real-time communication tool for general anno
 
 > The Teams for this course is [MTH-321AB-fa24](https://teams.microsoft.com/l/team/19%3AzQECcIYWQSQjSz8yuRrBWpdpVUkkD40RJOjHcC0C5bw1%40thread.tacv2/conversations?groupId=a560fff5-4e2f-4367-bbaf-e8584d01eefc&tenantId=ea8f3949-231c-40b6-a33f-56873af96f87){target="_blank"}. I recommend that you install the Teams software on your own machine for easy and stable access, instead of accessing Teams on the browser.
 
-Note that most of the content can be accessed in Teams which includes the course website, course Moodle page, and Wolfram.
+Note that most of the content can be accessed in Teams which includes the course website, course Moodle page, Desmos, and Wolfram.
 
 ### Email
 
