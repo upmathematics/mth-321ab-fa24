@@ -4,7 +4,7 @@ title: |
   | **Ordinary Differential Equation**
   | **Syllabus**
 author: |
-  | MTH 321 Sections  A & B
+  | MTH 321 Sections  A \& B
   | Fall 2024
   | University of Portland
 header-includes: |
@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Course Information
 
 > * Title: MTH 321: Ordinary Differential Equation
-> * Sections: A & B
+> * Sections: A \& B
 
 ### Instructor Information
 

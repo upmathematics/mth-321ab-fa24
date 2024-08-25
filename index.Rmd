@@ -2,7 +2,7 @@
 title: |
   | **Welcome to Ordinary Differential Equation!**
 author: |
-  | MTH 321 Sections A & B
+  | MTH 321 Sections A \& B
   | Fall 2024
   | University of Portland
 bibliography: references.bib
@@ -35,7 +35,7 @@ create_footer()
 ### Course Information
 
 > * Title: MTH 321: Ordinary Differential Equation
-> * Sections: A & B
+> * Sections: A \& B
 
 ### Instructor Information
 
