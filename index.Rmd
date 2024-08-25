@@ -65,7 +65,7 @@ create_footer()
 > Dr. Alex John Quijano
 >
 > <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/alexjohnquijano?hide_landing_page_details=1&hide_gdpr_banner=1" style="min-width:auto;height:900px;"></div>
+<div class="calendly-inline-widget" data-url="https://calendly.com/alexjohnquijano?hide_landing_page_details=1&hide_gdpr_banner=1" style="min-width:auto;height:600px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
 
@@ -104,8 +104,6 @@ My UP email is quijano@up.edu.
 > Use your UP email to sign-up for a free Desmos account and join our Desmos class [MTH-321: Ordinary Differential Equation [Quijano]](https://student.desmos.com/?prepopulateCode=vkkpy8){target="_blank"}. If you need the Desmos class code, use *VKKPY8*.
 
 ### Wolfram
-
-We will be using Wolfram Mathematica and Alpha as a computational tool for some assignments. Wolfram Mathematica and Alpha instructions and materials for completing assignments will be provided ad hoc.
 
 > Mathematica software is installed on every machine in the UP computer labs.
 
