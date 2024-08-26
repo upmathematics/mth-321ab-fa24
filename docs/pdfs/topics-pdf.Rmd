@@ -1,22 +1,32 @@
 ---
-title: |
+title: | 
+  \vspace{-1in}
   | **Ordinary Differential Equation**
   | **Tentative Topics Schedule**
 author: |
-  | MTH 321 Sections A \& B
+  | MTH 321 Sections  A \& B
   | Fall 2024
   | University of Portland
-bibliography: references.bib
-csl: apa.csl
+header-includes: |
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhead[RO,R]{MTH 321AB ODE - Syllabus}
+  \fancyfoot[CO,C]{}
+  \fancyfoot[R]{\thepage}
+  \usepackage{float}
+output:
+  bookdown::pdf_document2:
+    toc: no
+    number_section: no
+urlcolor: blue
+bibliography: ../../references.bib
+csl: ../../apa.csl
+geometry: "left=0.50in,right=0.50in,top=0.75in,bottom=0.75in"
+fontsize: 12pt
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source(file.path("R","functions.R"))
-```
-
-```{r echo=FALSE}
-create_footer()
 ```
 
 <br>
@@ -80,7 +90,7 @@ Along with textbooks [H] and [T], and websites [C] and [P], most of the course m
 ## **Books \& Online Resources Lists**
 
 ```{r echo=FALSE}
-refs <- bibtex::read.bib("references.bib")
+refs <- bibtex::read.bib("../references.bib")
 ```
 
 *Click on the link to access the resources.*

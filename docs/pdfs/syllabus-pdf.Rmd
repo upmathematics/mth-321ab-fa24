@@ -428,6 +428,10 @@ The misuse of AI to shortcut course learning outcomes will be treated as a viola
 
 Please see the University Bulletin for further information: [up.smartcatalogiq.com/en/2023-2024/bulletin/](http://up.smartcatalogiq.com/en/2022-2023/bulletin/University-Academic-Regulations/I-Code-of-Academic-Integrity/Guidelines-for-Implementation-of-the-Universitys-Code-of-Academic-Integrity){target="_blank"}.
 
+### Course AI Policy
+
+The use of generative AI — such as Copilot, Gemini, or ChatGPT — is encouraged and allowed in all of its capacity. However, students must use these tools ethically and responsibly. To use generative AI responsibly in this class, students should grasp underlying concepts, acknowledge AI's assistance, protect data privacy, verify information, and uphold academic honor code. AI should be seen as a learning aid, not a replacement for critical thinking.
+
 ### Referencing and Citation Guidelines
 
 In your written work for this course, you must cite all sources of information that you use, whether they are direct quotes, paraphrases, or summaries. The style of citation that you use should be consistent throughout your paper. The citation styles for this course are APA or CSE.
