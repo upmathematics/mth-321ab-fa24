@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## **Topics and Materials**
 
 | **Week** | **Day** | **Topic** | **Worksheet** | **Homework** | **Reading** |
-|:-----:|:-----:|:---------------:|:-----:|:-----:|:-----:|
+|:---:|:----:|:---------------:|:------:|:-----:|:--------:|
 | **1** | Tu 8/27 | Introduction and Orientation to ODEs | Review Algebra and Calculus | - | Syllabus |
 |  | Th 8/29 | Modeling Physical Systems,<br>Classification of Equations, \&<br>Principles of Solutions | Classify ODEs and Verify Solutions | - | Ch. 1.1 [T] |
 | **2** | Tu 9/3 | 1st-Order ODEs,<br>Existence and Uniqueness, \&<br>Analyzing Equilibriums of 1st-Order ODEs | Analyze 1st-Order ODEs Qualitatively | Assigned: Homework 1 | Ch. 1.2 [T] \& Ch. 2.1 [T] |
