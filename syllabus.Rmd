@@ -222,9 +222,11 @@ Given the following categorical grade, the student's work is able to:
 | **Acceptable <br> (A)** | Show some understanding of material but makes errors, can solve some problems, may need help with more difficult ones, need to work on problem-solving skills and reasoning needed. |
 | **Needs Improvement <br> (NI)** | Show potential but needs more work, made a lot of errors or unable to solve any problems, need to work on understanding material and problem-solving skills. |
 | **Needs Major Improvement <br> (NMI)** | Little understanding of material and some parts are incomplete or missing. Made many errors, unable to solve any problems, need to work on understanding material from the ground up. |
-| **Missing <br> (M)** | Work is not submitted or missing |
+| **Missing or Late <br> (M)** | The work is either not submitted, missing, or submitted *significantly* late. |
 
 *Note that these are categorical grades (not scores).*
+
+*Amendment 1:* The grade category "M" was changed from "Missing (M)" to "Missing or Late (M)" and its description was changed from "Work is not submitted or missing" to "The work is either not submitted, missing, or submitted *significantly* late."
 
 ### Final Grades
 
