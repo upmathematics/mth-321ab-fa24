@@ -40,7 +40,7 @@ create_footer()
 | **3** | Tu 9/10 | Separation of Variables for Solving 1st-Order ODEs | Separate the Variables | Assigned: Homework 2 | Ch. 2.2 [T] |
 |  | Th 9/12 | Integrating Factors for Solving 1st-Order ODEs | Choose an Integrating Factor | - | Ch. 2.6 [T] |
 | **4** | Tu 9/17 | Laplace Transforms for Solving 1st-Order ODEs | Introduce the Laplace Transform | - | Ch. 8.1 [T] \& Ch. 8.2 [T] |
-|  | Th 9/19 | Bifurcations in One Dimension | Apply Bifurcation Analysis to Physical Systems | - | TBA |
+|  | Th 9/19 | Bifurcations in One Dimension | Apply Bifurcation Analysis to Physical Systems | - | Ch. 4.1, 4.2, \& 4.3 [T] |
 | **5** | Tu 9/24 | _Review_ | Exam 1 Examples | - | Exam 1 Topics |
 |  | Th 9/26 | **Exam 1** | - | - | - |
 | **6** | Tu 10/1 | Systems of 1st-Order ODEs,<br>Existence and Uniqueness, \&<br>Modeling Physical Processes | Interpret 1st-Order System of ODEs | Assigned: Homework 3 | TBA |
