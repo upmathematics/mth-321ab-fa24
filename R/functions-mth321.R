@@ -1,9 +1,13 @@
 library(tidyverse)
 
-SlopeField = function(FUN,xi = -5,xs = 5,yi = -5,ys = 5, radius = 0.1, grid.by = 0.25, angle = 45, lwd = 1, 
-                      main = "", ylab = "y", xlab = "t", cor = cor){
+# slope field 1 function
+SlopeField = function(FUN,
+                      xi = -5,xs = 5,
+                      yi = -5,ys = 5, 
+                      radius = 0.1, grid.by = 0.25, angle = 45, lwd = 1, 
+                      main = "", xlab = "x", ylab = "y", col = "black"){
   # Source: https://stackoverflow.com/questions/47984874/how-to-create-a-slope-field-in-r
-  # FUN   - given function ODE i.e:  
+  # FUN   - given function ODE i.e: y'= y
   # xi,xs - lower and upper bound - x - plot
   # yi,ys - lower and upper bound - y - plot
   
@@ -18,8 +22,7 @@ SlopeField = function(FUN,xi = -5,xs = 5,yi = -5,ys = 5, radius = 0.1, grid.by =
   abline(v = 0, col="gray", lwd=1, lty=1)
   abline(h = 0, col="gray", lwd=1, lty=1)
   
-  # arrows
-  
+  # vectors
   for(x in seqx){
     for(y in seqy){
       ym = y
@@ -31,8 +34,40 @@ SlopeField = function(FUN,xi = -5,xs = 5,yi = -5,ys = 5, radius = 0.1, grid.by =
              radius*sin(atan(slope)+pi)+ym,
              radius*cos(atan(slope))+xm,
              radius*sin(atan(slope))+ym, 
-             length = 0.2*radius, col= cor,
+             length = 0.2*radius, col= col,
              angle = angle, lwd = lwd)
+    }
+  }
+}
+
+# Vector Field/Phase Portrait 2 functions
+PhasePortrait <- function(FUN1,FUN2,
+                          xi = -5,xs = 5,
+                          yi = -5,ys = 5, 
+                          radius = 0.1, grid.by = 0.25, angle = 45, lwd = 1, 
+                          main = "", xlab = "x", ylab = "y", col = "black"){
+  # FUN1  - given 1st function ODE i.e: x' = y
+  # FUN2  - given 2nd function ODE i.e: y' = x
+  # xi,xs - lower and upper bound - x - plot
+  # yi,ys - lower and upper bound - y - plot
+  
+  # grid points
+  seqx = seq(xi,xs,grid.by)
+  seqy = seq(yi,ys,grid.by)
+  
+  # plot
+  f = c(xi,xs) 
+  h = c(yi,ys)
+  plot(f,h,main=main, ylab = ylab, xlab = xlab, pch = ".",lty="blank")
+  abline(v = 0, col="gray", lwd=1, lty=1)
+  abline(h = 0, col="gray", lwd=1, lty=1)
+  
+  # vectors
+  for(x in seqx){
+    for(y in seqy){
+      ym = y
+      xm = x
+      
     }
   }
 }

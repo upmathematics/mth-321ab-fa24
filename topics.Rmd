@@ -43,8 +43,8 @@ create_footer()
 |  | Th 9/19 | Bifurcations in One Dimension | Apply Bifurcation Analysis to Physical Systems | - | Ch. 4.1, 4.2, \& 4.3 [T] |
 | **5** | Tu 9/24 | _Review_ | Exam 1 Examples | - | Exam 1 Topics |
 |  | Th 9/26 | **Exam 1** | - | - | - |
-| **6** | Tu 10/1 | Systems of 1st-Order ODEs,<br>Existence and Uniqueness, \&<br>Modeling Physical Processes | Interpret 1st-Order System of ODEs | Assigned: Homework 3 | TBA |
-|  | Th 10/3 | Analyzing Equilibriums to 1st-Order System of ODEs | Find Equilibriums of 1st-Order System of ODEs | - | - |
+| **6** | Tu 10/1 | Systems of 1st-Order ODEs,<br>Existence and Uniqueness, \&<br>Modeling Physical Processes | Interpret 1st-Order System of ODEs | Assigned: Homework 3 | Ch. 10.1 [T] |
+|  | Th 10/3 | Analyzing Equilibriums to 1st-Order System of ODEs | Find Equilibriums of 1st-Order System of ODEs | - | Ch. 10.2 \& 10.3 [T] |
 | **7** | Tu 10/8 | Linear Transformations \& Eigentheory | Solve 1st-Order System of ODEs using Eigentheory | Assigned: Homework 4 | TBA |
 |  | Th 10/10 | Stability Analysis \&<br>Solutions to 1st-Order System of ODEs | Use Linearization and Stability Analysis | - | TBA |
 | **8** | Tu 10/15 | _Fall Vacation_ | - | - | - |
