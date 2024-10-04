@@ -1,73 +1,108 @@
 library(tidyverse)
+library(rootSolve)
 
-# slope field 1 function
-SlopeField = function(FUN,
-                      xi = -5,xs = 5,
-                      yi = -5,ys = 5, 
-                      radius = 0.1, grid.by = 0.25, angle = 45, lwd = 1, 
-                      main = "", xlab = "x", ylab = "y", col = "black"){
-  # Source: https://stackoverflow.com/questions/47984874/how-to-create-a-slope-field-in-r
-  # FUN   - given function ODE i.e: y'= y
-  # xi,xs - lower and upper bound - x - plot
-  # yi,ys - lower and upper bound - y - plot
+# vector/slope field for one ode
+SlopeField <- function(FUN,params=c(),
+                       tlim=c(-1,1),ylim=c(-1,1),res=10,
+                       scale=0.10,radius=0.5,unit=FALSE,
+                       col="black",xlab="t",ylab="y",title=""){
   
-  # grid points
-  seqx = seq(xi,xs,grid.by)
-  seqy = seq(yi,ys,grid.by)
+  # variables
+  t_var <- seq(tlim[1],tlim[2],length.out=res)
+  y_var <- seq(ylim[1],ylim[2],length.out=res)
+  ty_mesh <- expand_grid(t_var,y_var)
+  t_diff <- t_var[2]-t_var[1]
   
-  # plot
-  f = c(xi,xs) 
-  h = c(yi,ys)
-  plot(f,h,main=main, ylab = ylab, xlab = xlab, pch = ".",lty="blank")
-  abline(v = 0, col="gray", lwd=1, lty=1)
-  abline(h = 0, col="gray", lwd=1, lty=1)
+  # apply ode function and create vector points
+  vector_points <- ty_mesh %>% 
+    mutate(slope = FUN(t_var,y_var,params)[[1]],
+           t_0_orig = t_var,
+           y_0_orig = y_var,
+           t_1_orig = t_0_orig+t_diff*scale,
+           y_1_orig = y_0_orig+slope*t_diff*scale,
+           t_midpoint = (t_1_orig-t_0_orig)/2,
+           y_midpoint = (y_1_orig-y_0_orig)/2,
+           norm = sqrt((t_1_orig-t_0_orig)^2 + (y_1_orig-y_0_orig)^2),
+           unit_t = scale*(t_1_orig-t_0_orig)/norm,
+           unit_y = scale*(y_1_orig-y_0_orig)/norm,
+           unit_t_midpoint = unit_t/2,
+           unit_y_midpoint = unit_y/2,
+           t_0 = case_when(
+               unit == TRUE ~ t_0_orig-unit_t_midpoint,
+               unit == FALSE ~ t_0_orig-t_midpoint
+             ),
+           y_0 = case_when(
+             unit == TRUE ~ y_0_orig-unit_y_midpoint,
+             unit == FALSE ~ y_0_orig-y_midpoint
+           ),
+           t_1 = case_when(
+             unit == TRUE ~ t_0_orig+unit_t-unit_t_midpoint,
+             unit == FALSE ~ t_1_orig-t_midpoint
+           ),
+           y_1 = case_when(
+             unit == TRUE ~ y_0_orig+unit_y-unit_y_midpoint,
+             unit == FALSE ~ y_1_orig-y_midpoint
+           ))
   
-  # vectors
-  for(x in seqx){
-    for(y in seqy){
-      ym = y
-      xm = x
-      
-      slope = unlist(FUN(x,y))
-      cor = cor
-      arrows(radius*cos(atan(slope)+pi)+xm,
-             radius*sin(atan(slope)+pi)+ym,
-             radius*cos(atan(slope))+xm,
-             radius*sin(atan(slope))+ym, 
-             length = 0.2*radius, col= col,
-             angle = angle, lwd = lwd)
-    }
-  }
+  # draw slope field
+  ggplot(data=vector_points)+
+    geom_segment(aes(x=t_0, y=y_0, xend=t_1, yend=y_1),
+                 color=col,
+                 arrow = arrow(length = unit(scale*radius, "inches"))) + 
+    labs(x=xlab,y=ylab)+
+    ggtitle(title) +
+    theme_minimal()
 }
 
-# Vector Field/Phase Portrait 2 functions
-PhasePortrait <- function(FUN1,FUN2,
-                          xi = -5,xs = 5,
-                          yi = -5,ys = 5, 
-                          radius = 0.1, grid.by = 0.25, angle = 45, lwd = 1, 
-                          main = "", xlab = "x", ylab = "y", col = "black"){
-  # FUN1  - given 1st function ODE i.e: x' = y
-  # FUN2  - given 2nd function ODE i.e: y' = x
-  # xi,xs - lower and upper bound - x - plot
-  # yi,ys - lower and upper bound - y - plot
+# Vector field / phase portrait for system of two odes
+PhasePortrait <- function(FUN,params=c(),
+                          xlim=c(-1,1),ylim=c(-1,1),res=10,
+                          scale=0.10,radius=0.5,unit=FALSE,
+                          col="black",xlab="x",ylab="y",title=""){
   
-  # grid points
-  seqx = seq(xi,xs,grid.by)
-  seqy = seq(yi,ys,grid.by)
+  # variables
+  x_var <- seq(xlim[1],xlim[2],length.out=res)
+  y_var <- seq(ylim[1],ylim[2],length.out=res)
+  xy_mesh <- expand_grid(x_var,y_var)
   
-  # plot
-  f = c(xi,xs) 
-  h = c(yi,ys)
-  plot(f,h,main=main, ylab = ylab, xlab = xlab, pch = ".",lty="blank")
-  abline(v = 0, col="gray", lwd=1, lty=1)
-  abline(h = 0, col="gray", lwd=1, lty=1)
+  # apply ode function and create vector points
+  ode_points <- xy_mesh %>% 
+    mutate(dx = FUN(x_var,y_var,params)[[1]],
+           dy = FUN(x_var,y_var,params)[[2]],
+           x_0_orig = x_var,
+           y_0_orig = y_var,
+           x_1_orig = x_var+dx*scale,
+           y_1_orig = y_var+dy*scale,
+           x_midpoint = (x_1_orig-x_0_orig)/2,
+           y_midpoint = (y_1_orig-y_0_orig)/2,
+           norm = sqrt((x_1_orig-x_0_orig)^2 + (y_1_orig-y_0_orig)^2),
+           unit_x = scale*(x_1_orig-x_0_orig)/norm,
+           unit_y = scale*(y_1_orig-y_0_orig)/norm,
+           unit_x_midpoint = unit_x/2,
+           unit_y_midpoint = unit_y/2,
+           x_0 = case_when(
+             unit == TRUE ~ x_0_orig-unit_x_midpoint,
+             unit == FALSE ~ x_0_orig-x_midpoint
+           ),
+           y_0 = case_when(
+             unit == TRUE ~ y_0_orig-unit_y_midpoint,
+             unit == FALSE ~ y_0_orig-y_midpoint
+           ),
+           x_1 = case_when(
+             unit == TRUE ~ x_0_orig+unit_x-unit_x_midpoint,
+             unit == FALSE ~ x_1_orig-x_midpoint
+           ),
+           y_1 = case_when(
+             unit == TRUE ~ y_0_orig+unit_y-unit_y_midpoint,
+             unit == FALSE ~ y_1_orig-y_midpoint
+           ))
   
-  # vectors
-  for(x in seqx){
-    for(y in seqy){
-      ym = y
-      xm = x
-      
-    }
-  }
+  # draw slope field
+  ggplot(data=ode_points)+
+    geom_segment(aes(x=x_0, y=y_0, xend=x_1, yend=y_1),
+                 color=col,
+                 arrow = arrow(length = unit(scale*radius, "inches"))) + 
+    labs(x=xlab,y=ylab)+
+    ggtitle(title) +
+    theme_minimal()
 }
