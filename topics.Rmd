@@ -46,17 +46,17 @@ create_footer()
 | **6** | Tu 10/1 | Systems of 1st-Order ODEs,<br>Existence and Uniqueness, \&<br>Modeling Physical Processes | Interpret 1st-Order System of ODEs | - | Ch. 10.1 [T] |
 |  | Th 10/3 | Analyzing Equilibriums to 1st-Order System of ODEs | Find Equilibriums of 1st-Order System of ODEs | Assigned: Homework 3 | Ch. 10.2 \& 10.3 [T] |
 | **7** | Tu 10/8 | Stability Analysis by Linearization \& Eigentheory | Use Eigentheory to Analyze Equilibrium Stability | - | TBA |
-|  | Th 10/10 | Analytical Solutions to 1st-Order System of ODEs | Use Eigentheory to Solve 1st-Order Linear System of ODEs | Assigned: Homework 4 | TBA |
+|  | Th 10/10 | Analytical Solutions to 1st-Order System of ODEs | Use Eigentheory to Solve 1st-Order Linear System of ODEs | - | TBA |
 | **8** | Tu 10/15 | _Fall Vacation_ | - | - | - |
 |  | Th 10/17 | _Fall Vacation_ | - | - | - |
 | **9** | Tu 10/22 | Eigenvalues and Eigenvectors for Solving 1st-Order Linear Systems | Use Distinct or Repeated Eigenvalues | - | TBA |
-|  | Th 10/24 | Complex Solutions of 1st-Order Linear Systems | Use Complex Exponentials | - | TBA |
+|  | Th 10/24 | Complex Solutions of 1st-Order Linear Systems | Use Complex Exponentials | Assigned: Homework 4 | TBA |
 | **10** | Tu 10/29 | _Review_ | Exam 2 Examples | - | Exam 2 Topics |
 |  | Th 10/31 | **Exam 2** | - | - | - |
-| **11** | Tu 11/5 | Higher Order ODEs,<br>Classification of Equations, \&<br>Modeling Physical Processes | Find Homogeneous and Particular Solutions | Assigned: Homework 5 | TBA |
-|  | Th 11/7 | Analyzing 2nd-Order Linear ODEs | Use Substitution and Non-Dimensionalization | - | TBA |
-| **12** | Tu 11/12 | Undetermined Coefficients for Solving Linear 2nd-Order ODEs | Determine the Undetermined | Assigned: Homework 6 | TBA |
-|  | Th 11/14 | Variation of Parameters for Solving Linear 2nd-Order ODEs | Vary the Parameters | - | TBA |
+| **11** | Tu 11/5 | Higher Order ODEs,<br>Classification of Equations, \&<br>Modeling Physical Processes | Find Homogeneous and Particular Solutions | - | TBA |
+|  | Th 11/7 | Analyzing 2nd-Order Linear ODEs | Use Substitution and Non-Dimensionalization | Assigned: Homework 5 | TBA |
+| **12** | Tu 11/12 | Undetermined Coefficients for Solving Linear 2nd-Order ODEs | Determine the Undetermined | - | TBA |
+|  | Th 11/14 | Variation of Parameters for Solving Linear 2nd-Order ODEs | Vary the Parameters | Assigned: Homework 6 | TBA |
 | **13** | Tu 11/19 | Laplace Transforms for Solving Linear 2nd-Order ODEs | Transform the Derivatives | - | - |
 |  | Th 11/21 | _Review_ | Exam 3 Examples | - | Exam 3 Topics |
 | **14** | Tu 11/26 | **Exam 3** | - | - | - |
