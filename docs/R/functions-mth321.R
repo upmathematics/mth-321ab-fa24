@@ -1,5 +1,4 @@
 library(tidyverse)
-library(rootSolve)
 
 # vector/slope field for one ode
 SlopeField <- function(FUN,params=c(),
