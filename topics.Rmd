@@ -68,7 +68,7 @@ create_footer()
 
 <br>
 
-Along with the textbook [T], and websites [C] and [P], most of the course materials (contents of worksheets and homework) of each topic was taken from these following sources:
+Along with the textbook [T], and websites [C] and [P], some of the course materials (contents of worksheets and homework) of each topic was taken from these following sources:
 
 -   Inquiry oriented differential equations (IODE) by @iode2018
 -   Differential equations and linear algebra by @strang2014differential
