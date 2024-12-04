@@ -39,8 +39,8 @@ create_footer()
 |  | Th 9/5 | Nullclines and Isoclines \&<br>Euler's Method for solving 1st-Order ODEs | Solve 1st-Order ODEs Graphically and Numerically | - | Ch. 1.3 \& 3.1 [T] |
 | **3** | Tu 9/10 | Separation of Variables for Solving 1st-Order ODEs | Separate the Variables | Assigned: Homework 2 | Ch. 2.2 [T] |
 |  | Th 9/12 | Integrating Factors for Solving 1st-Order ODEs | Choose an Integrating Factor | - | Ch. 2.6 [T] |
-| **4** | Tu 9/17 | Laplace Transforms for Solving 1st-Order ODEs | Introduce the Laplace Transform | - | Ch. 8.1 \& Ch. 8.2 [T] |
-|  | Th 9/19 | Bifurcations in One Dimension | Apply Bifurcation Analysis to Physical Systems | - | Ch. 4.1, 4.2, \& 4.3 [T] |
+| **4** | Tu 9/17 | Laplace Transforms for Solving 1st-Order ODEs | Introduce the Laplace Transform | - | Ch. 8.1-8.2 [T] |
+|  | Th 9/19 | Bifurcations in One Dimension | Apply Bifurcation Analysis to Physical Systems | - | Ch. 4.1-4.3 [T] |
 | **5** | Tu 9/24 | _Review_ | Exam 1 Examples | - | Exam 1 Topics |
 |  | Th 9/26 | **Exam 1** | - | - | - |
 | **6** | Tu 10/1 | Systems of 1st-Order ODEs,<br>Existence and Uniqueness, \&<br>Modeling Physical Processes | Interpret 1st-Order System of ODEs | - | Ch. 10.1 [T] |
@@ -53,15 +53,15 @@ create_footer()
 |  | Th 10/24 | Complex Solutions of 1st-Order Linear Systems | Use Complex Exponentials | Assigned: Homework 4 | Ch. 10.6 [T] |
 | **10** | Tu 10/29 | _Review_ | Exam 2 Examples | - | Exam 2 Topics |
 |  | Th 10/31 | **Exam 2** | - | - | - |
-| **11** | Tu 11/5 | Higher-Order ODEs,<br>Classification of Equations, \&<br>Modeling Physical Processes | Find Homogeneous and Particular Solutions | - | TBA |
-|  | Th 11/7 | Undetermined Coefficients for Solving Linear Higher-Order ODEs | Determine the Undetermined | Assigned: Homework 5 | TBA |
-| **12** | Tu 11/12 | Variation of Parameters for Solving Linear Higher-Order ODEs | Vary the Parameters | - | TBA |
-|  | Th 11/14 | Laplace Transforms for Solving Linear Higher-Order ODEs | Transform the Derivatives | Assigned: Homework 6 | TBA |
-| **13** | Tu 11/19 | Analyzing Higher-Order Linear ODEs | Use Substitutions and Reduce the Order | - | - |
+| **11** | Tu 11/5 | Higher-Order ODEs,<br>Classification of Equations, \&<br>Modeling Physical Processes | Find Homogeneous and Particular Solutions | - | Ch. 5.1-5.3 \& 6.1 [T] |
+|  | Th 11/7 | Undetermined Coefficients for Solving Linear Higher-Order ODEs | Determine the Undetermined | Assigned: Homework 5 | Ch. 5.4-5.5 \& 6.2 [T] |
+| **12** | Tu 11/12 | Variation of Parameters for Solving Linear Higher-Order ODEs | Vary the Parameters | - | Ch. 5.7 \& 6.3 [T] |
+|  | Th 11/14 | Laplace Transforms for Solving Linear Higher-Order ODEs | Transform the Derivatives | Assigned: Homework 6 | Ch. 8.3 \& 8.5 [T] |
+| **13** | Tu 11/19 | Analyzing Higher-Order Linear ODEs | Use Substitutions and Reduce the Order | - | Ch. 5.6 [T] |
 |  | Th 11/21 | _Review_ | Exam 3 Examples | - | Exam 3 Topics |
 | **14** | Tu 11/26 | **Exam 3** | - | - | - |
 |  | Th 11/28 | _Thanksgiving Vacation_ | - | - | - |
-| **15** | Tu 12/3 | Series Solutions for Solving Linear ODEs | Use Power Series (Optional) | - | TBA |
+| **15** | Tu 12/3 | Series Solutions for Solving Linear ODEs | Use Power Series (Optional) | - | Ch. 7.1-7.3 [T] |
 |  | Th 12/5 | _Review_ | Final Exam Examples | - | Final Exam Topics |
 | **16** | Tu 12/11 | **Final Exam Section A** | - | - | - |
 |  | Th 12/12 | **Final Exam Section B** | - | - | - |
