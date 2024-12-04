@@ -61,7 +61,7 @@ create_footer()
 |  | Th 11/21 | _Review_ | Exam 3 Examples | - | Exam 3 Topics |
 | **14** | Tu 11/26 | **Exam 3** | - | - | - |
 |  | Th 11/28 | _Thanksgiving Vacation_ | - | - | - |
-| **15** | Tu 12/3 | Series Solutions for Solving Linear ODEs | Use Power Series (Optional) | - | Ch. 7.1-7.3 [T] |
+| **15** | Tu 12/3 | Series Solutions for Solving Linear ODEs | Use Power Series | - | Ch. 7.1-7.3 [T] |
 |  | Th 12/5 | _Review_ | Final Exam Examples | - | Final Exam Topics |
 | **16** | Tu 12/11 | **Final Exam Section A** | - | - | - |
 |  | Th 12/12 | **Final Exam Section B** | - | - | - |
